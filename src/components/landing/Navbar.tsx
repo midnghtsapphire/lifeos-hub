@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sparkles, Menu, X } from "lucide-react";
 
@@ -36,13 +37,12 @@ export const Navbar = () => {
             ))}
           </div>
 
-          {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost" size="sm">
-              Sign In
+            <Button variant="ghost" size="sm" asChild>
+              <Link to="/login">Sign In</Link>
             </Button>
-            <Button size="sm" className="bg-gradient-primary hover:opacity-90 text-primary-foreground">
-              Get Started
+            <Button size="sm" className="bg-gradient-primary hover:opacity-90 text-primary-foreground" asChild>
+              <Link to="/signup">Get Started</Link>
             </Button>
           </div>
 
@@ -70,11 +70,11 @@ export const Navbar = () => {
                 </a>
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="outline" size="sm">
-                  Sign In
+                <Button variant="outline" size="sm" asChild>
+                  <Link to="/login">Sign In</Link>
                 </Button>
-                <Button size="sm" className="bg-gradient-primary hover:opacity-90 text-primary-foreground">
-                  Get Started
+                <Button size="sm" className="bg-gradient-primary hover:opacity-90 text-primary-foreground" asChild>
+                  <Link to="/signup">Get Started</Link>
                 </Button>
               </div>
             </div>
