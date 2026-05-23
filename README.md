@@ -1,82 +1,76 @@
-# Welcome to your Lovable project
+# LifeOS Hub
 
-## Project info
+LifeOS Hub is a web app for unifying health, wealth, and insurance visibility into one personal operating system experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## What this repository does
 
-## How can I edit this code?
+- Public marketing + onboarding surface (`/`)
+- Email/password and Google auth flows (`/login`, `/signup`)
+- Auth-gated dashboard shell (`/dashboard`)
+- Supabase-backed session/auth client integration
 
-There are several ways of editing your application.
+## How it can be used now
 
-**Use Lovable**
+1. Start the app locally.
+2. Connect Supabase credentials with `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`.
+3. Run through auth and land in the dashboard shell.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Website in Test (Vercel)
 
-Changes made via Lovable will be committed automatically to this repo.
+- URL: `TBD`
+- Deployment automation reference: see `/DEPLOYMENT_GUIDE.md` (Vercel + GitHub flow).
 
-**Use your preferred IDE**
+## Value and goal alignment
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Value:** consolidates fragmented personal operations into one UX.
+- **Goal priority:** establish a trust-first, subscription-ready foundation for deeper AI-assisted life planning.
+- **3-year growth target framing:** this repo supports the broader portfolio objective of building toward a $10M business line by shipping a credible front-to-back product surface quickly.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Revenue projection framing
 
-Follow these steps:
+- Initial model: freemium onboarding + paid subscription tiers.
+- Revenue levers: premium insights, integrations, and account-level personalization.
+- See `/GO_TO_MARKET.md` for positioning and commercialization details.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Research engine, suggestions, assets, and artifacts
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Research engine command: `npm run research:engine`
+- Source research datasets:
+  - `research/engine/suggestions.json`
+  - `research/engine/assets.json`
+  - `research/engine/artifacts.json`
+- Artifact index: [artifacts/RESEARCH_ASSETS.md](./artifacts/RESEARCH_ASSETS.md)
+- Generated research artifact: `artifacts/research-engine-output.json`
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Tech stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- React + TypeScript + Vite
+- Tailwind + shadcn/ui
+- Supabase Auth/DB integration points
+
+## Local development
+
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Validation commands
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run lint
+npm test
+npm run build
+npm run baseline:test
+npm run baseline:build
+npm run research:engine
+```
 
-**Use GitHub Codespaces**
+## Standards documentation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-
----
-
-## Test
-
-| Feature | Status |
-|---------|--------|
-| Feature | ✅ Ready |
-
+- [CHANGELOG.md](./CHANGELOG.md)
+- [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)
+- [GO_TO_MARKET.md](./GO_TO_MARKET.md)
+- [BRAND_GUIDELINES.md](./BRAND_GUIDELINES.md)
+- [SECURITY.md](./SECURITY.md)
+- [artifacts/RESEARCH_ASSETS.md](./artifacts/RESEARCH_ASSETS.md)

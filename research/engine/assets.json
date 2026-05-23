@@ -1,0 +1,20 @@
+[
+  {
+    "id": "AST-001",
+    "name": "Homepage hero messaging set",
+    "type": "copy",
+    "location": "src/components/landing/Hero.tsx"
+  },
+  {
+    "id": "AST-002",
+    "name": "Dashboard starter-card model",
+    "type": "product-surface",
+    "location": "src/pages/Dashboard.tsx"
+  },
+  {
+    "id": "AST-003",
+    "name": "Brand baseline",
+    "type": "documentation",
+    "location": "BRAND_GUIDELINES.md"
+  }
+]
