@@ -32,6 +32,16 @@ LifeOS Hub is a web app for unifying health, wealth, and insurance visibility in
 - Revenue levers: premium insights, integrations, and account-level personalization.
 - See `/GO_TO_MARKET.md` for positioning and commercialization details.
 
+## Research engine, suggestions, assets, and artifacts
+
+- Research engine command: `npm run research:engine`
+- Source research datasets:
+  - `research/engine/suggestions.json`
+  - `research/engine/assets.json`
+  - `research/engine/artifacts.json`
+- Artifact index: [artifacts/RESEARCH_ASSETS.md](./artifacts/RESEARCH_ASSETS.md)
+- Generated research artifact: `artifacts/research-engine-output.json`
+
 ## Tech stack
 
 - React + TypeScript + Vite
@@ -53,6 +63,7 @@ npm test
 npm run build
 npm run baseline:test
 npm run baseline:build
+npm run research:engine
 ```
 
 ## Standards documentation
@@ -62,3 +73,4 @@ npm run baseline:build
 - [GO_TO_MARKET.md](./GO_TO_MARKET.md)
 - [BRAND_GUIDELINES.md](./BRAND_GUIDELINES.md)
 - [SECURITY.md](./SECURITY.md)
+- [artifacts/RESEARCH_ASSETS.md](./artifacts/RESEARCH_ASSETS.md)

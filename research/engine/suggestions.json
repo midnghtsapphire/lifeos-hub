@@ -1,0 +1,20 @@
+[
+  {
+    "id": "SUG-001",
+    "title": "Onboarding profile completion score",
+    "description": "Guide users to connect core data sources in a prioritized sequence for better activation.",
+    "priority": "high"
+  },
+  {
+    "id": "SUG-002",
+    "title": "Weekly insight digest",
+    "description": "Deliver AI-generated summary cards showing changes in health, wealth, and protection status.",
+    "priority": "high"
+  },
+  {
+    "id": "SUG-003",
+    "title": "Risk gap nudges",
+    "description": "Surface missing insurance or emergency-fund thresholds with clear next actions.",
+    "priority": "medium"
+  }
+]

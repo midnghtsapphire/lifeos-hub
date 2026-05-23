@@ -38,3 +38,11 @@ LifeOS Hub is an AI-forward personal operations interface that combines financia
 - Grand View Research, digital health market trends: https://www.grandviewresearch.com/industry-analysis/digital-health-market
 - Statista, personal finance app usage trends: https://www.statista.com/
 - McKinsey, consumer health and digital engagement research: https://www.mckinsey.com/industries/healthcare/our-insights
+
+## Research engine artifacts
+
+- Engine command: `npm run research:engine`
+- Suggestions dataset: `research/engine/suggestions.json`
+- Assets dataset: `research/engine/assets.json`
+- Artifacts dataset: `research/engine/artifacts.json`
+- Output artifact: `artifacts/research-engine-output.json`

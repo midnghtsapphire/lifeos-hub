@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-23T04:39:46.919Z",
+  "summary": {
+    "suggestions": 3,
+    "assets": 3,
+    "artifacts": 3
+  },
+  "suggestions": [
+    {
+      "id": "SUG-001",
+      "title": "Onboarding profile completion score",
+      "description": "Guide users to connect core data sources in a prioritized sequence for better activation.",
+      "priority": "high"
+    },
+    {
+      "id": "SUG-002",
+      "title": "Weekly insight digest",
+      "description": "Deliver AI-generated summary cards showing changes in health, wealth, and protection status.",
+      "priority": "high"
+    },
+    {
+      "id": "SUG-003",
+      "title": "Risk gap nudges",
+      "description": "Surface missing insurance or emergency-fund thresholds with clear next actions.",
+      "priority": "medium"
+    }
+  ],
+  "assets": [
+    {
+      "id": "AST-001",
+      "name": "Homepage hero messaging set",
+      "type": "copy",
+      "location": "src/components/landing/Hero.tsx"
+    },
+    {
+      "id": "AST-002",
+      "name": "Dashboard starter-card model",
+      "type": "product-surface",
+      "location": "src/pages/Dashboard.tsx"
+    },
+    {
+      "id": "AST-003",
+      "name": "Brand baseline",
+      "type": "documentation",
+      "location": "BRAND_GUIDELINES.md"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "ART-001",
+      "name": "Go-to-market baseline",
+      "owner": "product",
+      "status": "ready",
+      "location": "GO_TO_MARKET.md"
+    },
+    {
+      "id": "ART-002",
+      "name": "Deployment automation baseline",
+      "owner": "engineering",
+      "status": "ready",
+      "location": "DEPLOYMENT_GUIDE.md"
+    },
+    {
+      "id": "ART-003",
+      "name": "Security baseline policy",
+      "owner": "engineering",
+      "status": "ready",
+      "location": "SECURITY.md"
+    }
+  ]
+}

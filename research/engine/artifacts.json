@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ART-001",
+    "name": "Go-to-market baseline",
+    "owner": "product",
+    "status": "ready",
+    "location": "GO_TO_MARKET.md"
+  },
+  {
+    "id": "ART-002",
+    "name": "Deployment automation baseline",
+    "owner": "engineering",
+    "status": "ready",
+    "location": "DEPLOYMENT_GUIDE.md"
+  },
+  {
+    "id": "ART-003",
+    "name": "Security baseline policy",
+    "owner": "engineering",
+    "status": "ready",
+    "location": "SECURITY.md"
+  }
+]
