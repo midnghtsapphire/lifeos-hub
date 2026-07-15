@@ -1,5 +1,9 @@
 # LifeOS Hub
 
+
+<!-- AUTO-PACKAGE-BADGES:START -->
+
+<!-- AUTO-PACKAGE-BADGES:END -->
 LifeOS Hub is a web app for unifying health, wealth, and insurance visibility into one personal operating system experience.
 
 ## What this repository does
